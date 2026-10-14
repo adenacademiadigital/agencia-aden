@@ -499,6 +499,92 @@
                 justify-content: center;
             }
         }
+        .project-card.legaltech-card {
+            background: #0f172a;
+            border: 1px solid rgba(197, 160, 89, 0.4);
+            border-radius: 12px;
+            padding: 1.8rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, border-color 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .project-card.legaltech-card:hover {
+            transform: translateY(-5px);
+            border-color: #c5a059;
+        }
+
+        .card-badge {
+            display: inline-block;
+            background: rgba(197, 160, 89, 0.15);
+            color: #e5c889;
+            border: 1px solid #c5a059;
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+            width: fit-content;
+        }
+
+        .card-icon {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-card h3 {
+            color: #ffffff;
+            font-size: 1.25rem;
+            margin-bottom: 0.6rem;
+        }
+
+        .project-desc {
+            color: #94a3b8;
+            font-size: 0.88rem;
+            line-height: 1.5;
+            margin-bottom: 1.2rem;
+        }
+
+        .project-features {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .project-features li {
+            font-size: 0.82rem;
+            color: #cbd5e1;
+            margin-bottom: 0.4rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .project-features li span {
+            color: #c5a059;
+            font-weight: bold;
+        }
+
+        .btn-demo-live {
+            display: block;
+            width: 100%;
+            text-align: center;
+            background: linear-gradient(135deg, #c5a059 0%, #9a7b3e 100%);
+            color: #0f172a;
+            font-weight: 700;
+            padding: 0.75rem;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: opacity 0.2s ease;
+        }
+
+        .btn-demo-live:hover {
+            opacity: 0.9;
+        }
     </style>
 </head>
 <body>
